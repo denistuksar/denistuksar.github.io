@@ -112,5 +112,17 @@ h1,h2,p{
   color: #fff !important;
 }
 
+#sendMessageButton{
+  width: 6.1rem;
+  height: 3.5rem;
+  margin-top: -1rem;
+}
+
+#sendMessageButton:hover{
+  background-color: rgb(52, 58, 64);
+  border-color: rgb(52, 58, 64);
+  color:white
+}
+
 
 
