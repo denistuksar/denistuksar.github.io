@@ -46,7 +46,9 @@
     <br>
     <header class="text-center">
         <div class="container">
-            <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+            <div class="crop">
+                <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+            </div>
             <h1 class="text-uppercase">Denis Tuksar</h1>
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -86,9 +88,12 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4 text-center py-4">
-                    <!-- Button to Open the Modal -->
-                    <img src="images/geoApp.png" alt="GeoApp" class="portfImg"  data-toggle="modal" data-target="#myModal">
+                <div class="col-lg-4 py-4">
+                    <div class="hovereffect">
+                        <img src="images/geoApp.png" alt="GeoApp" class="portfImg" data-toggle="modal"
+                            data-target="#myModal">
+                        <h2>GeoApp - C#, MySQL</h2>
+                    </div>
 
                     <!-- The Modal -->
                     <div class="modal" id="myModal">
@@ -104,9 +109,14 @@
                                 <!-- Modal body -->
                                 <img src="images/geoApp2.png" alt="GeoApp" class="modalImg">
                                 <div class="modal-body text-dark text-justify">
-                                        GeoApp je aplikacija kojoj je cilj olakšati proces nabave i servisiranja geodetskih uređaja i opreme. Moguća je prijava u sustav u ulozi kupca, administratora ili zaposlenika. 
-                                        Kupci imaju mogućnost prikaza i upravljanja s informacijama o servisiranju, procjenama i ostalim uslugama koje poduzeće nudi te imaju mogućnost naručivanja geodetskih uređaja i opreme. 
-                                        Zaposlenici mogu unositi uređaje i opremu u bazu te ih ažurirati, a administrator ima i mogućnost uređivanja ovlasti korisnika.
+                                    GeoApp je aplikacija kojoj je cilj olakšati proces nabave i servisiranja geodetskih
+                                    uređaja i opreme. Moguća je prijava u sustav u ulozi kupca, administratora ili
+                                    zaposlenika.
+                                    Kupci imaju mogućnost prikaza i upravljanja s informacijama o servisiranju,
+                                    procjenama i ostalim uslugama koje poduzeće nudi te imaju mogućnost naručivanja
+                                    geodetskih uređaja i opreme.
+                                    Zaposlenici mogu unositi uređaje i opremu u bazu te ih ažurirati, a administrator
+                                    ima i mogućnost uređivanja ovlasti korisnika.
                                 </div>
 
                                 <!-- Modal footer -->
@@ -119,8 +129,11 @@
                 </div>
 
                 <div class="col-lg-4 text-center py-4">
-                    <!-- Button to Open the Modal -->
-                    <img src="images/recepti.png" alt="Recepti" class="portfImg"  data-toggle="modal" data-target="#myModal2">
+                    <div class="hovereffect">
+                        <img src="images/recepti.png" alt="Recepti" class="portfImg" data-toggle="modal"
+                            data-target="#myModal2">
+                        <h2>Recepti - HTML, CSS, PHP, JavaScript</h2>
+                    </div>
 
                     <!-- The Modal -->
                     <div class="modal" id="myModal2">
@@ -136,8 +149,10 @@
                                 <!-- Modal body -->
                                 <img src="images/recepti.png" alt="Recepti" class="modalImg">
                                 <div class="modal-body text-dark text-justify">
-                                        Statičku Web stranica izrađena na temelju zadanog opisa funkcionalnosti i dizajna, Web mjesto uz hipertekstualno i hipermedijsko povezivanje statičkih Web stranica. 
-                                        Svrha izrade projekta je naučiti razlikovati Web tehnologije: http://barka.foi.hr/WebDiP/2017_projekti/WebDiP2017x147/index.php
+                                    Statičku Web stranica izrađena na temelju zadanog opisa funkcionalnosti i dizajna,
+                                    Web mjesto uz hipertekstualno i hipermedijsko povezivanje statičkih Web stranica.
+                                    Svrha izrade projekta je naučiti razlikovati Web tehnologije:
+                                    http://barka.foi.hr/WebDiP/2017_projekti/WebDiP2017x147/index.php
                                 </div>
 
                                 <!-- Modal footer -->
@@ -150,101 +165,122 @@
                 </div>
 
                 <div class="col-lg-4 text-center py-4">
-                        <!-- Button to Open the Modal -->
-                        <img src="images/zracneLuke.png" alt="Zracne luke" class="portfImg"  data-toggle="modal" data-target="#myModal3">
-    
-                        <!-- The Modal -->
-                        <div class="modal" id="myModal3">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-    
-                                    <!-- Modal Header -->
-                                    <div class="modal-header">
-                                        <h4 class="modal-title text-dark">Zračne luke - MySQL, HTML, CSS, Bootstrap</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-    
-                                    <!-- Modal body -->
-                                    <img src="images/zracneLuke.png" alt="Recepti" class="modalImg">
-                                    <div class="modal-body text-dark text-justify">
-                                            U ovom projektu osmislio sam i implementirao bazu podataka koja može poslužiti evidenciji prometa zračne luke. Aplikacija je namijenjena zaposlenicima zračne luke. 
-                                            Omogućuje unos i pregled putnika (ime, prezime, OIB, adresa...), rezervacija (klasa, sjedalo, ID putnika, ID leta...), 
-                                            letova (broj leta, kod zračne luke polaska i destinacije, vrijeme polaska i dolaska, cijena, udaljenost...), prtljage (ID putnika, ID leta), evidenciju uplata 
-                                            (Iznos uplate, datum uplate), aviokompanija (naziv, sjedište, savez...), zrakoplova (naziv, model, kapacitet goriva...), proizvođača (naziv, ICAO) i zračnih luka (IATA, naziv, grad) 
-                                            te uvid i dodavanje pilota i kopilota (ime, prezime, broj licence).
-                                    </div>
-    
-                                    <!-- Modal footer -->
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                    </div>
+
+                    <div class="hovereffect">
+                        <img src="images/zracneLuke.png" alt="Zračne luke" class="portfImg" data-toggle="modal"
+                            data-target="#myModal3">
+                        <h2>Zračne luke - MySQL, HTML, CSS, Bootstrap</h2>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal3">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title text-dark">Zračne luke - MySQL, HTML, CSS, Bootstrap</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <img src="images/zracneLuke.png" alt="Recepti" class="modalImg">
+                                <div class="modal-body text-dark text-justify">
+                                    U ovom projektu osmislio sam i implementirao bazu podataka koja može poslužiti
+                                    evidenciji prometa zračne luke. Aplikacija je namijenjena zaposlenicima zračne luke.
+                                    Omogućuje unos i pregled putnika (ime, prezime, OIB, adresa...), rezervacija (klasa,
+                                    sjedalo, ID putnika, ID leta...),
+                                    letova (broj leta, kod zračne luke polaska i destinacije, vrijeme polaska i dolaska,
+                                    cijena, udaljenost...), prtljage (ID putnika, ID leta), evidenciju uplata
+                                    (Iznos uplate, datum uplate), aviokompanija (naziv, sjedište, savez...), zrakoplova
+                                    (naziv, model, kapacitet goriva...), proizvođača (naziv, ICAO) i zračnih luka (IATA,
+                                    naziv, grad)
+                                    te uvid i dodavanje pilota i kopilota (ime, prezime, broj licence).
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-    
+                </div>
+
 
                 <div class="col-lg-4 text-center py-4">
-                        <!-- Button to Open the Modal -->
-                        <img src="images/geoCentar.png" alt="Geo Centar" class="portfImg"  data-toggle="modal" data-target="#myModal4">
-    
-                        <!-- The Modal -->
-                        <div class="modal" id="myModal4">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-    
-                                    <!-- Modal Header -->
-                                    <div class="modal-header">
-                                        <h4 class="modal-title text-dark">GeoCentar - Oracle Apex</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-    
-                                    <!-- Modal body -->
-                                    <img src="images/geoCentar.png" alt="Recepti" class="modalImg">
-                                    <div class="modal-body text-dark text-justify">
-                                            Aplikacija za podsustav servisa poduzeća Geo-centar. Aplikacija služi za praćenje procesa servisa uređaja. Za izradu aplikacije korišten je alat Oracle Apex. 
-                                            Nakon što su kreirane sve tablice, izrađene su forme koje omogućavaju unos, čitanje, ažuriranje i brisanje podataka iz baze podataka. Nakon toga dodani su izvještaji i grafikoni.
-                                    </div>
-    
-                                    <!-- Modal footer -->
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                    </div>
+                    <div class="hovereffect">
+                        <img src="images/geoCentar.png" alt="Geocentar" class="portfImg" data-toggle="modal"
+                            data-target="#myModal4">
+                        <h2>GeoCentar - Oracle Apex</h2>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal4">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title text-dark">GeoCentar - Oracle Apex</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <img src="images/geoCentar.png" alt="Recepti" class="modalImg">
+                                <div class="modal-body text-dark text-justify">
+                                    Aplikacija za podsustav servisa poduzeća Geo-centar. Aplikacija služi za praćenje
+                                    procesa servisa uređaja. Za izradu aplikacije korišten je alat Oracle Apex.
+                                    Nakon što su kreirane sve tablice, izrađene su forme koje omogućavaju unos,
+                                    čitanje, ažuriranje i brisanje podataka iz baze podataka. Nakon toga dodani su
+                                    izvještaji i grafikoni.
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-4 text-center py-4">
-                            <!-- Button to Open the Modal -->
-                            <img src="images/prototip.png" alt="Prototip" class="portfImg"  data-toggle="modal" data-target="#myModal5">
-        
-                            <!-- The Modal -->
-                            <div class="modal" id="myModal5">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-        
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h4 class="modal-title text-dark">Prototip aplikacije za upravljanje projektima - Proto.io</h4>
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-        
-                                        <!-- Modal body -->
-                                        <img src="images/prototip.png" alt="Prototip" class="modalImg">
-                                        <div class="modal-body text-dark text-justify">
-                                                Prototip aplikacije za upraljanje projektima izrađen alatom Proto.io. Ciljevi aplikacije: 1. Lakša izrada i praćenje projekata (razvoja novog proizvoda). 
-                                                2. Lakši pristup dokumentima. 3. Objedinjeni dokumenti projekata. 
-                                        </div>
-        
-                                        <!-- Modal footer -->
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
+                <div class="col-lg-4 text-center py-4">
+                    <div class="hovereffect">
+                        <img src="images/prototip.png" alt="Prototip" class="portfImg" data-toggle="modal"
+                            data-target="#myModal5">
+                        <h2>Prototip aplikacije za upravljanje projektima -
+                            Proto.io</h2>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal5">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title text-dark">Prototip aplikacije za upravljanje projektima -
+                                        Proto.io</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <img src="images/prototip.png" alt="Prototip" class="modalImg">
+                                <div class="modal-body text-dark text-justify">
+                                    Prototip aplikacije za upraljanje projektima izrađen alatom Proto.io. Ciljevi
+                                    aplikacije: 1. Lakša izrada i praćenje projekata (razvoja novog proizvoda).
+                                    2. Lakši pristup dokumentima. 3. Objedinjeni dokumenti projekata.
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
 
             </div>
         </div>
