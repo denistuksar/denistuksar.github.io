@@ -37,9 +37,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script defer src="javascript/script.js"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -60,23 +61,23 @@
     <meta name="google-site-verification" content="_4tVjRAFMRquSscrQRxvd1etm5zMXLCiTWF3PsO5_cw" />
 </head>
 
-<body id="top">
+<body class="section0" id="top">
     <nav class="navbar navbar-expand-lg navbar-dark text-uppercase fixed-top" id="navigacija">
         <div class="container">
-            <a class="navbar-brand" href="#top">Denis Tuksar</a>
+            <a class="navbar-brand section-0" href="#top">Denis Tuksar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#omeni">About</a>
+                        <a class="nav-link section-1" href="#omeni">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link section-2" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#kontakt">Contact</a>
+                        <a class="nav-link section-3" href="#kontakt">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -121,7 +122,7 @@
             </div>
         </div>
     </header>
-    <section class="page-section bg-primarna text-white" id="omeni">
+    <section class="page-section bg-primarna text-white section1" id="omeni">
         <div class="container">
             <h2 class="page-section-heading text-center text-white text-uppercase">About Me</h2>
             <div class="divider-custom divider-light">
@@ -153,7 +154,7 @@
             </div>
         </div>
     </section>
-    <section class="page-section text-white" id="portfolio">
+    <section class="page-section text-white section2" id="portfolio">
         <div class="container">
             <h2 class="page-section-heading text-center text-uppercase">Portfolio</h2>
             <div class="divider-custom">
@@ -394,7 +395,7 @@
             </div>
         </div>
     </section>
-    <section class="page-section bg-primarna text-white" id="kontakt">
+    <section class="page-section bg-primarna text-white section3" id="kontakt">
         <div class="container">
             <h2 class="page-section-heading text-center text-uppercase text-white">Contact me</h2>
             <div class="divider-custom divider-light">
