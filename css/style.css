@@ -186,7 +186,7 @@ p {
 }
 
 .toTop{
-  display: block;
+  display: none;
   position: fixed;
   bottom: 30px;
   right: 40px;
