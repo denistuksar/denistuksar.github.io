@@ -134,11 +134,6 @@ p {
   color: white
 }
 
-.portfImg {
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
 .portfImg:hover {
   cursor: pointer;
 }
@@ -152,37 +147,6 @@ p {
 
 .modal-body {
   font-size: 1rem;
-}
-
-.hovereffect {
-  position: relative;
-}
-
-.hovereffect img {
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-}
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  position: absolute;
-  top:0;
-  text-align: center;
-  width: 100%;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-  opacity: 0;
-  color: #fff;
-}
-
-.hovereffect:hover h2 {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
 }
 
 .toTop{
@@ -216,4 +180,59 @@ body{
 
 .nav-link.active{
   color:#1abc9c!important;
+}
+
+.overlayContainer{
+  position:relative;
+  width:100%;
+}
+
+.portfImg{
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1abc9c;
+  cursor: pointer;
+}
+
+.overlayContainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right:-20%;
+  text-transform: uppercase;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+
+.text2 {
+  color: white;
+  font-size: 1rem;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
