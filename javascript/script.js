@@ -24,13 +24,21 @@ function smoothScroll(target, duration) {
 
 }
 
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction(){
+    if(window.pageYOffset>100){
+        toTop.style.display = "block";
+    } else {
+      toTop.style.display = "none";
+    }
+};
 
 var section1 = document.querySelector('.section-1');
 var section2 = document.querySelector('.section-2');
 var section3 = document.querySelector('.section-3');
 var section0 = document.querySelector('.section-0');
-
+var toTop = document.querySelector('.toTop');
 
 
 section1.addEventListener('click', () => {
@@ -48,5 +56,10 @@ section3.addEventListener('click', () => {
 section0.addEventListener('click', () => {
     smoothScroll('.section0', 1000);
 })
+
+toTop.addEventListener('click', () => {
+    smoothScroll('.section0', 1000);
+})
+
 
 
