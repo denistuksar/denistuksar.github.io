@@ -21,7 +21,8 @@ function smoothScroll(target, duration) {
     };
 
     requestAnimationFrame(animation);
-
+    var element = document.getElementById("collapsibleNavbar");
+    element.classList.remove("show");
 }
 
 window.onscroll = function() {scrollFunction()};
