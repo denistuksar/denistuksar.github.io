@@ -236,3 +236,11 @@ body{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+input.invalid{
+  background-color: pink;
+}
+
+textarea.invalid{
+  background-color: pink;
+}
