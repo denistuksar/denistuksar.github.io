@@ -149,7 +149,7 @@ p {
   font-size: 1rem;
 }
 
-.toTop{
+.toTop {
   display: none;
   position: fixed;
   bottom: 30px;
@@ -167,27 +167,27 @@ p {
 
 .toTop:hover {
   background-color: #7B6999;
-  color:white;
+  color: white;
 }
 
 .toTop:focus {
-  outline:0;
+  outline: 0;
 }
 
-body{
+body {
   position: relative;
 }
 
-.nav-link.active{
-  color:#1abc9c!important;
+.nav-link.active {
+  color: #1abc9c !important;
 }
 
-.overlayContainer{
-  position:relative;
-  width:100%;
+.overlayContainer {
+  position: relative;
+  width: 100%;
 }
 
-.portfImg{
+.portfImg {
   display: block;
   width: 100%;
   margin-bottom: 2rem;
@@ -217,7 +217,7 @@ body{
   position: absolute;
   top: 40%;
   left: 50%;
-  right:-20%;
+  right: -20%;
   text-transform: uppercase;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -237,10 +237,24 @@ body{
   -ms-transform: translate(-50%, -50%);
 }
 
-input.invalid{
+input.invalid {
   background-color: pink;
 }
 
-textarea.invalid{
+textarea.invalid {
   background-color: pink;
+}
+
+.moreProjects {
+  color: #1abc9c;
+  font-size: 4rem;
+  padding: 4rem;
+  letter-spacing: 15px;
+}
+
+.modalText{
+  font-size: 1rem!important;
+}
+.modal-title{
+  color: black;
 }
